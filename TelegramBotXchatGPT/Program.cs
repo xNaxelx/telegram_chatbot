@@ -14,8 +14,6 @@ namespace Bot
         private static TelegramBotClient telegramBotClient;
         private static OpenAIClient openAIClient;
 
-        private static readonly string audioPath = "voice_message.wav";
-
         private static List<OpenAI.Chat.Message> messages = new List<OpenAI.Chat.Message>();
         
         public static async Task Main(string[] args)
